@@ -2,7 +2,7 @@
 This will aid you in cleaning up massive Voicemod Log Files
 
 ## For Python Users: Run "Run Me.bat"
-We recommend Python users opt for this version, as it provides customization features and offers a transparent understanding of the code.
+We recommend Python users opt for this version, as it provides customisation features and offers a transparent understanding of the code.
 
 ## For Non-Python Users: Choose "Run Me (No Python).bat"
 We've prepared this Batch file for users who may not have Python installed. You're welcome to use it without Python if you prefer. However, we've also included the Python option for those who are interested! :)
