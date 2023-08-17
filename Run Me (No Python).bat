@@ -1,9 +1,9 @@
 @echo off
 setlocal
-set "voicemod_folder=C:\ProgramData\Voicemod"
+set "voicemod_folder=C:\Users\Joshy\OneDrive\Documents\Code\Python\VoiceModLogFileFix\TestLogs"
 
 echo IMPORTANT! MAKE SURE THE PATH FILE ON THE Run Me (No Python).bat BATCH FILE IS SET TO YOUR VOICEMOD PROGRAMME DATA PATH!
-echo This Batch File is for users who don't have Python. We recommend the Python version, as it's more stable and customisable
+echo This Batch is for users who don't have Python. We recommend the Python version, as it's more stable and customisable
 echo If you have the Python. Use the "Run Me.bat"
 echo This will clear all your log files in "C:\ProgramData\Voicemod" directory
 echo This has been tested for only Windows 10. This function should work with more recent versions of Windows. Hopefully!
