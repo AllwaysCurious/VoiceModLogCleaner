@@ -25,7 +25,7 @@ if errorlevel 2 (
         for %%F in ("%voicemod_folder%\*.log") do (
             set "filename=%%~nF"
             break > "%%F"
-            echo Emptied contents of file: !filename!.log
+            echo Emptied Log File
         )
         echo Exiting batch. Thank you for using!
         pause
@@ -37,7 +37,7 @@ if errorlevel 2 (
         for %%F in ("%voicemod_folder%\*.log") do (
             set "filename=%%~nF"
             break > "%%F"
-            echo Emptied contents of file: !filename!.log
+            echo Emptied Log File
         )
         echo Looping again...
         echo Press Ctrl+C to stop the script.
