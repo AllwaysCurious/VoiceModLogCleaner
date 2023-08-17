@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "voicemod_folder=C:\Users\Joshy\OneDrive\Documents\Code\Python\VoiceModLogFileFix\TestLogs"
+set "voicemod_folder=C:\ProgramData\Voicemod"
 
 echo IMPORTANT! MAKE SURE THE PATH FILE ON THE Run Me (No Python).bat BATCH FILE IS SET TO YOUR VOICEMOD PROGRAMME DATA PATH!
 echo This Batch is for users who don't have Python. We recommend the Python version, as it's more stable and customisable
