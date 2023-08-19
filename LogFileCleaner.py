@@ -19,7 +19,7 @@ log_folder = "C:\\ProgramData\\Voicemod" # By default, you won't need to touch t
 # 2. Then it will proceed to read all the files in the directory (folder)
 # 3. It will then proceed to check if the File Type is rather a .log or .txt (The .txt file is customisable, and can be configured above)
 # 4. Almost there! Then it will check if the File Size is large enough to clear.
-# 5. Finally, it will empty all the data in the log or txt file. Leaving the logs blank for Voicemod, instead of deleting them, to prevent errors!
+# 5. Finally, it will empty all the data in the log or txt file, leaving the logs blank for Voicemod. Instead of deleting them, to prevent errors!
 
 def delete_log_files(folder_path):
     NumberOfFiles = 0
