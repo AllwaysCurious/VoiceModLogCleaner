@@ -2,7 +2,7 @@
 
 
 ## Configurable Variables ##
-MaxFileSize = "5" # (Value is in Megabyes) This variable clears log files, which are greater or equal to this value.
+MaxFileSize = "5" # (Value is in Megabytes) This variable clears log files, which are greater or equal to this value.
 ClearTxtFormats = False # If your logs are txt files too. Then try setting this variable to True
 
 
