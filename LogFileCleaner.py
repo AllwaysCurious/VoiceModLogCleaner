@@ -30,7 +30,7 @@ def delete_log_files(folder_path):
                     file_path = os.path.join(root, file)
                     initial_size = os.path.getsize(file_path)
                     if (os.path.getsize(file_path)/(1024*1024)) >= float(MaxFileSize): # Checks if the file is big enough to get cleared. You can configure this in the variables section
-                        NumberOfFiles = NumberOfFiles + len(files)
+                        NumberOfFiles =+ 1
                         with open(file_path, 'w') as f:
                             f.truncate(0) # Empty all the data here!
                         final_size = os.path.getsize(file_path)
